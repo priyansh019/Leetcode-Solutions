@@ -1,13 +1,20 @@
 class Solution {
 public:
     void rotate(vector<int>& nums, long long k) {
-       long long n = nums.size();
-       for(long long j =0;j<k;j++){
-            long long l = nums[n-1];
-            for(long long i = n-1; i>0; i--){
-                nums[i] = nums[i-1];
-            }
-            nums[0] = l;  
-            }
+        int n=nums.size();
+        vector<int> temp(n);
+        int a=0;
+        k = k % n;
+        for(int i=n-k; i<n; i++){
+            temp[a]=nums[i];
+            a++;
         }
+        for(int j=0; j<n-k; j++){
+            temp[a]=nums[j];
+            a++;
+        }
+        for(int m=0; m<n; m++){
+            nums[m]=temp[m];
+        }
+    }
 };
