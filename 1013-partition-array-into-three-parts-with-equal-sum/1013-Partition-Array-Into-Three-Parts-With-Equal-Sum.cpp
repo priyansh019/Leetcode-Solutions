@@ -21,7 +21,8 @@ public:
         }
         // if(co==3){
         //     return true;
-        // }
+        // } can't use co==3 due to last part will be left 
+        //so co==2
         // else return false;
         return false;
     }
