@@ -9,11 +9,9 @@ public:
 
         int count = 1;
         int maxcount = 1;
-
         for(int i = 1; i < n; i++) {
             if(nums[i] > nums[i - 1]) {
                 count++;
-
                 if(count > maxcount) {
                     maxcount = count;
                 }
@@ -22,7 +20,6 @@ public:
                 count = 1;
             }
         }
-
         return maxcount;
     }
 };
