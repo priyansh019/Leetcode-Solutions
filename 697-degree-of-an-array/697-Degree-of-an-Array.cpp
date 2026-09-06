@@ -35,13 +35,11 @@ public:
             if(count[nums[i]] == degree) {
 
                 int length = last[nums[i]] - first[nums[i]] + 1;
-
                 if(length < ans) {
                     ans = length;
                 }
             }
         }
-
         return ans;
     }
 };
