@@ -11,8 +11,9 @@ public:
             rev = (rev*10) + rem;
             x = x/10;
         } 
-        if(temp == rev)
+        if(temp == rev){
             return 1;
+        }    
         else
             return 0;
     }
