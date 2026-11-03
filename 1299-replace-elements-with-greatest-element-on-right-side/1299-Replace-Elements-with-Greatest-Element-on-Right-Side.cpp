@@ -10,6 +10,7 @@ public:
                     max = arr[j];
                 }
             }
+            
             ans[i] = max;
         }
         return ans;
