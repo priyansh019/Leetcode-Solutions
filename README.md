@@ -1,13 +1,13 @@
 # LeetCode Solutions
 
-A focused, growing collection of Data Structures and Algorithms problem solutions built for consistent practice, pattern recognition, and quick revision.
+A focused collection of Data Structures and Algorithms problem solutions built for consistent practice, structured revision, and pattern recognition.
 
-This repo is not just a dump of answers — it is designed to feel like a learning flow:
+This repository is designed to support a real learning loop:
 
 - pick a problem
-- read the idea
-- try the approach
-- compare the implementation
+- understand the idea
+- try the approach yourself
+- compare with the implementation
 - revisit when needed
 
 The goal is simple: build confidence one problem at a time.
@@ -16,7 +16,7 @@ The goal is simple: build confidence one problem at a time.
 
 ## Why this repository?
 
-This project is built for:
+This project is meant for:
 
 - daily coding practice
 - DSA interview preparation
@@ -24,19 +24,19 @@ This project is built for:
 - keeping solutions organized by problem and topic
 - learning by solving, not just memorizing
 
-Every folder follows a consistent style so the learning loop stays smooth.
+Every folder follows a consistent structure so the flow stays clean and easy to revisit.
 
 ---
 
-## Learning Flow
+## Learning flow
 
 ### 1. Choose a problem
-Browse the repository by problem number or by pattern. Each problem has its own folder with a clear title and solution.
+Browse the repository by problem number or by topic. Each problem has its own folder with a clear title and solution.
 
-### 2. Understand the concept
+### 2. Understand the core idea
 Open the problem README and focus on:
 
-- the core idea
+- the main insight
 - edge cases
 - time complexity
 - space complexity
@@ -45,18 +45,18 @@ Open the problem README and focus on:
 Before reading the final solution, attempt to solve it on your own.
 
 ### 4. Compare your logic
-Open the C++ implementation and compare your approach with the repo’s solution.
+Open the C++ implementation and compare your approach with the repo's solution.
 
 ### 5. Revisit and improve
-If a pattern feels familiar later, come back and re-solve it to strengthen retention.
+If a pattern looks familiar later, come back and re-solve it to strengthen retention.
 
-This creates a real practice loop instead of a passive file collection.
+This creates a practical study loop instead of a passive file dump.
 
 ---
 
-## Repository Structure
+## Repository structure
 
-```bash
+```text
 Leetcode-Solutions/
 ├── 1-two-sum/
 │   ├── README.md
@@ -74,26 +74,22 @@ Leetcode-Solutions/
 
 Each folder usually contains:
 
-- a problem-specific README
-- the C++ code solution
-- a problem statement summary and key idea
+- a problem-specific `README.md`
+- a C++ implementation
+- a clear summary of the idea and constraints
 
 ---
 
-## Live Interaction Flow
-
-This repo is meant to be used actively, not just read passively.
-
-### Typical workflow
+## Typical workflow
 
 1. Open a problem folder
 2. Read the README for the idea
 3. Inspect the implementation
 4. Run the code locally
-5. Try slight variations of input
-6. Re-solve after a few days
+5. Try small variations of the input
+6. Re-solve the problem after a few days
 
-### Quick run example
+### Quick example
 
 ```bash
 cd Leetcode-Solutions
@@ -102,15 +98,15 @@ g++ -std=c++17 1-two-sum/1-Two-Sum.cpp -o two_sum
 ./two_sum
 ```
 
-This makes the repo feel interactive, practical, and hands-on.
+This keeps the repository interactive, practical, and easy to use while learning.
 
 ---
 
-## Common Problem Patterns Covered
+## Common patterns covered
 
-The repo includes solutions across many standard DSA categories, including:
+The repository includes solutions across many standard DSA categories, including:
 
-| Topic | Example Problems |
+| Topic | Example problems |
 | --- | --- |
 | Array | Two Sum, Running Sum, Max Consecutive Ones |
 | Hashing | Frequency-based problems, duplicates, lookup optimization |
@@ -120,11 +116,11 @@ The repo includes solutions across many standard DSA categories, including:
 | Greedy | Maximize/minimize under simple local decisions |
 | Sorting | Arrange values to satisfy constraints |
 
-The actual collection keeps expanding as more problems are added.
+The collection keeps growing as more problems are added.
 
 ---
 
-## How to Use This Repo
+## How to use this repo
 
 ### For learning
 Use this repository as a practice vault:
@@ -145,7 +141,7 @@ Over time, this repo becomes a personal archive of your problem-solving journey.
 
 ---
 
-## Recommended Study Routine
+## Recommended study routine
 
 ```text
 Daily Practice Routine
@@ -160,7 +156,7 @@ This keeps the process focused and consistent.
 
 ---
 
-## Contribution Style
+## Contribution style
 
 If you want to extend the repository:
 
@@ -171,9 +167,9 @@ If you want to extend the repository:
 
 ---
 
-## Final Note
+## Final note
 
-This repo is all about momentum.
+This repository is all about momentum.
 
 Every solution here is a small step toward stronger problem-solving intuition, cleaner implementation, and faster interview readiness.
 
