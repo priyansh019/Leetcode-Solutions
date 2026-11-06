@@ -11,7 +11,6 @@ public:
             else
                 u++;
         }
-
         return abs(l - r) + u;
     }
 };
