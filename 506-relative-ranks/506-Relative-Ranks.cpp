@@ -3,10 +3,8 @@ public:
     vector<string> findRelativeRanks(vector<int>& score) {
         vector<string> s;
         vector<int> ans = score;
-
         sort(ans.begin(), ans.end());
         int n = ans.size();
-
         for(int i = 0; i < n; i++) {
             if(score[i] == ans[n-1])
                 s.push_back("Gold Medal");
@@ -26,7 +24,6 @@ public:
                 s.push_back(to_string(rank));
             }
         }
-
         return s;
     }
 };
