@@ -1,14 +1,17 @@
 # LeetCode Solutions
 
-A focused collection of Data Structures and Algorithms problem solutions built for consistent practice, structured revision, and pattern recognition.
+A curated collection of Data Structures and Algorithms solutions in C++ for daily practice, revision, and interview preparation.
 
-This repository is designed to support a real learning loop:
+[![C++](https://img.shields.io/badge/Language-C%2B%2B-00599C?logo=c%2B%2B)]()
+[![Focus](https://img.shields.io/badge/Focus-DSA%20Patterns-blue)]()
+[![Practice](https://img.shields.io/badge/Practice-Consistent-green)]()
 
-- pick a problem
-- understand the idea
-- try the approach yourself
-- compare with the implementation
-- revisit when needed
+This repository is built to help you:
+
+- practice coding regularly
+- understand common problem patterns
+- compare your approach with a clean solution
+- revise faster before interviews or exams
 
 The goal is simple: build confidence one problem at a time.
 
@@ -16,15 +19,15 @@ The goal is simple: build confidence one problem at a time.
 
 ## Why this repository?
 
-This project is meant for:
+This project is useful for:
 
 - daily coding practice
 - DSA interview preparation
-- revising common patterns quickly
+- quick revision of common patterns
 - keeping solutions organized by problem and topic
 - learning by solving, not just memorizing
 
-Every folder follows a consistent structure so the flow stays clean and easy to revisit.
+Each folder follows a consistent structure so the flow stays clean and easy to revisit.
 
 ---
 
@@ -72,15 +75,25 @@ Leetcode-Solutions/
 └── LeetCode/
 ```
 
-Each folder usually contains:
+Each problem folder usually contains:
 
 - a problem-specific `README.md`
 - a C++ implementation
-- a clear summary of the idea and constraints
+- a concise explanation of the idea and constraints
 
 ---
 
-## Typical workflow
+## How to use the repo
+
+### Run a single solution
+
+```bash
+cd Leetcode-Solutions
+g++ -std=c++17 1-two-sum/1-Two-Sum.cpp -o two_sum
+./two_sum
+```
+
+### Recommended workflow
 
 1. Open a problem folder
 2. Read the README for the idea
@@ -89,59 +102,27 @@ Each folder usually contains:
 5. Try small variations of the input
 6. Re-solve the problem after a few days
 
-### Quick example
-
-```bash
-cd Leetcode-Solutions
-
-g++ -std=c++17 1-two-sum/1-Two-Sum.cpp -o two_sum
-./two_sum
-```
-
-This keeps the repository interactive, practical, and easy to use while learning.
-
 ---
 
 ## Common patterns covered
 
 The repository includes solutions across many standard DSA categories, including:
 
-| Topic | Example problems |
-| --- | --- |
-| Array | Two Sum, Running Sum, Max Consecutive Ones |
-| Hashing | Frequency-based problems, duplicates, lookup optimization |
-| Sliding Window | Longest subarray, prefix-window optimization |
-| Prefix Sum | Subarray sums and range queries |
-| Binary Search | Search on sorted arrays, lower/upper bounds |
-| Greedy | Maximize/minimize under simple local decisions |
-| Sorting | Arrange values to satisfy constraints |
+- Array
+- Hashing
+- Sliding Window
+- Prefix Sum
+- Binary Search
+- Greedy
+- Sorting
+- Two Pointers
+- Stack and Queue patterns
 
 The collection keeps growing as more problems are added.
 
 ---
 
-## How to use this repo
-
-### For learning
-Use this repository as a practice vault:
-
-- solve a problem from scratch
-- compare with the final solution
-- write your own notes in the margin
-
-### For revision
-When preparing for interviews or exams:
-
-- revisit a topic category
-- scan the pattern names
-- re-run the implementations
-
-### For progress
-Over time, this repo becomes a personal archive of your problem-solving journey.
-
----
-
-## Recommended study routine
+## Study routine
 
 ```text
 Daily Practice Routine
@@ -152,7 +133,7 @@ Daily Practice Routine
 └── Repeat
 ```
 
-This keeps the process focused and consistent.
+This keeps the process focused, consistent, and productive.
 
 ---
 
