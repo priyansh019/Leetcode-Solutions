@@ -8,7 +8,6 @@ public:
             if(s[i] == '1')
                 ones++;
         }
-
         for(int i = 0; i < s.size()-1; i++) {
             if(s[i] == '0')
                 zeros++;
@@ -16,7 +15,7 @@ public:
                 ones--;
             ans = max(ans, zeros + ones);
         }
-        
+
         return ans;
     }
 };
