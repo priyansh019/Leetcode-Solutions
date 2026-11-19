@@ -1,63 +1,17 @@
 # LeetCode Solutions
 
-A curated collection of Data Structures and Algorithms solutions in C++ for daily practice, revision, and interview preparation.
+A collection of LeetCode solutions written in C++.
 
-[![C++](https://img.shields.io/badge/Language-C%2B%2B-00599C?logo=c%2B%2B)]()
-[![Focus](https://img.shields.io/badge/Focus-DSA%20Patterns-blue)]()
-[![Practice](https://img.shields.io/badge/Practice-Consistent-green)]()
+[![C++](https://img.shields.io/badge/Language-C%2B%2B-00599C?logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
+[![LeetCode](https://img.shields.io/badge/Platform-LeetCode-FFA116?logo=leetcode&logoColor=black)](https://leetcode.com/)
 
-This repository is built to help you:
+## About
 
-- practice coding regularly
-- understand common problem patterns
-- compare your approach with a clean solution
-- revise faster before interviews or exams
+This repository contains solutions to LeetCode problems, organized into one folder per problem. Each folder includes the problem description and a C++ implementation where available.
 
-The goal is simple: build confidence one problem at a time.
+The repository is maintained with the [LeetPush](https://github.com/LeetPushExtension/LeetPush) extension.
 
----
-
-## Why this repository?
-
-This project is useful for:
-
-- daily coding practice
-- DSA interview preparation
-- quick revision of common patterns
-- keeping solutions organized by problem and topic
-- learning by solving, not just memorizing
-
-Each folder follows a consistent structure so the flow stays clean and easy to revisit.
-
----
-
-## Learning flow
-
-### 1. Choose a problem
-Browse the repository by problem number or by topic. Each problem has its own folder with a clear title and solution.
-
-### 2. Understand the core idea
-Open the problem README and focus on:
-
-- the main insight
-- edge cases
-- time complexity
-- space complexity
-
-### 3. Try it yourself
-Before reading the final solution, attempt to solve it on your own.
-
-### 4. Compare your logic
-Open the C++ implementation and compare your approach with the repo's solution.
-
-### 5. Revisit and improve
-If a pattern looks familiar later, come back and re-solve it to strengthen retention.
-
-This creates a practical study loop instead of a passive file dump.
-
----
-
-## Repository structure
+## Structure
 
 ```text
 Leetcode-Solutions/
@@ -70,96 +24,58 @@ Leetcode-Solutions/
 ├── 1005-maximize-sum-of-array-after-k-negations/
 │   ├── README.md
 │   └── 1005-Maximize-Sum-Of-Array-After-K-Negations.cpp
-├── ...
-├── README.md
-└── LeetCode/
+└── README.md
 ```
 
-Each problem folder usually contains:
+Folder names use the LeetCode problem number and a URL-friendly version of the problem title.
 
-- a problem-specific `README.md`
-- a C++ implementation
-- a concise explanation of the idea and constraints
+## Browse the Solutions
 
----
+- Open a numbered folder to view the problem description.
+- Read the C++ source file for the implementation.
+- Problem folders generally contain:
+  - `README.md` — problem statement and examples
+  - `*.cpp` — C++ solution
 
-## How to use the repo
+### Examples
 
-### Run a single solution
+- [1. Two Sum](./1-two-sum/)
+- [1004. Max Consecutive Ones III](./1004-max-consecutive-ones-iii/)
+- [1005. Maximize Sum of Array After K Negations](./1005-maximize-sum-of-array-after-k-negations/)
+
+## Compile and Run
+
+Use a C++17-compatible compiler to compile a solution locally.
 
 ```bash
-cd Leetcode-Solutions
-g++ -std=c++17 1-two-sum/1-Two-Sum.cpp -o two_sum
-./two_sum
+g++ -std=c++17 "1-two-sum/1-Two-Sum.cpp" -o two-sum
+./two-sum
 ```
 
-### Recommended workflow
+Replace the source path and output name with the problem you want to run.
 
-1. Open a problem folder
-2. Read the README for the idea
-3. Inspect the implementation
-4. Run the code locally
-5. Try small variations of the input
-6. Re-solve the problem after a few days
+## Topics
 
----
+The solutions include problems from a range of common data-structures-and-algorithms topics, such as:
 
-## Common patterns covered
-
-The repository includes solutions across many standard DSA categories, including:
-
-- Array
-- Hashing
-- Sliding Window
-- Prefix Sum
-- Binary Search
-- Greedy
+- Arrays
+- Hash tables
 - Sorting
-- Two Pointers
-- Stack and Queue patterns
+- Greedy algorithms
+- Sliding windows
+- Binary search
+- Two pointers
+- Stack and queue patterns
 
-The collection keeps growing as more problems are added.
+## Contributing
 
----
+Pull requests and suggestions are welcome. Before submitting a change:
 
-## Study routine
+1. Keep the existing folder naming convention.
+2. Place each problem in its own numbered folder.
+3. Include clear C++ code and the corresponding problem README.
+4. Test the solution before opening a pull request.
 
-```text
-Daily Practice Routine
-├── 20 min: choose a medium/easy problem
-├── 20 min: think, code, and test
-├── 10 min: compare with repo solution
-├── 5 min: note the pattern learned
-└── Repeat
-```
+## License
 
-This keeps the process focused, consistent, and productive.
-
----
-
-## Contribution style
-
-If you want to extend the repository:
-
-- keep the naming consistent with the problem title
-- add a problem README with the key insight
-- maintain a clean C++ solution
-- keep the structure readable and reusable
-
----
-
-## Final note
-
-This repository is all about momentum.
-
-Every solution here is a small step toward stronger problem-solving intuition, cleaner implementation, and faster interview readiness.
-
-If you are learning DSA, this is a practical place to build that habit.
-
----
-
-## Explore the problems
-
-Browse the folders and start with any problem that matches your current goal.
-
-The best time to start is now — pick one, solve it, and move forward.
+No license has been specified for this repository.
