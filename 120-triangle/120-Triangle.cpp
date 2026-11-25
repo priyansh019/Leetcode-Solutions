@@ -2,13 +2,15 @@ class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
         int n=triangle.size();
-        vector<vector<int>> dp=triangle;
-        for(int i=n-2; i>=0; i--){
-            for(int j=0; j<=i; j++){
-                dp[i][j]+=min(dp[i+1][j], dp[i+1][j+1]);
+        vector<vector<int>> dp=triangle; //creates a 2d vector of dp with triangle values
+        for(int i=n-2; i>=0; i--){       // accesing last 2nd row and checking each pair with last row 
+            for(int j=0; j<=i; j++){     // element. moving j from i to i+1 automatically due to i--
+                dp[i][j]+=min(dp[i+1][j], dp[i+1][j+1]); // updating value in the dp array
             }
         }
-        return dp[0][0];
+        return dp[0][0]; // top of dp array triangle will be the minimum sum
+        
+        
         
         // int b=INT_MAX;
         // int c=0;
